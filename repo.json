@@ -1,0 +1,26 @@
+{
+    "repo": {
+        "id": "repository.rarosalion",
+        "name": "rarosalion's Plugins",
+        "icon": "",
+        "repo_data_directory": "https://raw.githubusercontent.com/rarosalion/unmanic-plugins/repo/",
+        "repo_data_url": "https://raw.githubusercontent.com/rarosalion/unmanic-plugins/repo/repo.json"
+    },
+    "plugins": [
+        {
+            "author": "Chacawaca",
+            "compatibility": [
+                2
+            ],
+            "description": "Closed captions / subtitles extraction from any media file",
+            "icon": "https://raw.githubusercontent.com/chacawaca/unmanic-plugins/repo/ccextractor/icon.png",
+            "id": "ccextractor",
+            "name": "CCextractor",
+            "priorities": {
+                "on_worker_process": 0
+            },
+            "tags": "subtitle",
+            "version": "0.0.2"
+        }
+    ]
+}
